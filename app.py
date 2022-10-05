@@ -11,7 +11,7 @@ import timm
 import gradio as gr
 
 # %% Predict_for_app.ipynb 3
-learn = load_learner('bird_classifier_convnext_base_989.pkl')
+learn = load_learner('bird_classifier_resnet18_963.pkl')
 categories = learn.dls.vocab
 
 # %% Predict_for_app.ipynb 5
